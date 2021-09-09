@@ -45,5 +45,6 @@ def binpow(a,b,m):
         a = (a * a)%m
         b >>= 1
     return res
+#If m is a prime number we can speed up a bit this algorithm by calculating x^n mod(m−1) instead of  x^n
 
 
