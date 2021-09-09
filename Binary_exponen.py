@@ -9,6 +9,13 @@ So a^n= {   1             if n==0
         {   (a^(n/2) )^2  if n>0 and n even
         {   (a^((n-1)/2))^2 . a     if n>0 and n odd
 
+ #Application refer cp-algo
+ Effective computation of large exponents modulo a number
+Effective computation of Fibonacci numbers
+Applying a permutation k times
+Fast application of a set of geometric operations to a set of points
+Number of paths of length k in a graph
+Variation of binary exponentiation: multiplying two numbers modulo m
 """
 
 
