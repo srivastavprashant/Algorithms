@@ -34,3 +34,16 @@ def binpow(a, b):
         a = a * a
         b >>= 1
     return res
+
+#Compute x^n mod m
+def binpow(a,b,m):
+    a%=m
+    res=1
+    while b > 0:
+        if b & 1 == 1:
+            res = (res * a) %m
+        a = (a * a)%m
+        b >>= 1
+    return res
+
+
